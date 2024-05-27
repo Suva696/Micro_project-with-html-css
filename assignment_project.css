@@ -1,0 +1,110 @@
+
+:root{
+    --fontstyle :'Inter';
+    --margin_top : 30px;
+    --fontsize:20px
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: var( --fontstyle);
+}
+body{
+    margin:2rem;  
+}
+.container1{
+    background-color:#FFCD9E;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+   
+}
+
+h1{
+    font-size: 36px;
+    font-family: Inter;
+    color: #282828;
+   font-family: Inter;
+    
+}
+.para1{
+    font-size:var(--fontsize);
+    margin-top: var(--margin_top);
+    line-height: 32px;
+    color: #484848;
+
+}
+h6{
+    color : #282828;
+    font-size:var(--fontsize);
+    margin-top: var(--margin_top);
+}
+/*this is for input field */
+#input{
+    border-radius: 8px;
+    height:64px ;
+    width: 350px;
+    border: 4px solid #000000;
+    margin-top: var(--margin_top);
+    color: #888888;
+    font-size:var(--fontsize);
+    text-align: center;
+    
+    
+}
+/*this is for button(Register now) */
+.button{
+    border-radius: 8px;
+    height:72px ;
+    width: 216px;
+    background-color:#282828;
+    margin-top: var(--margin_top);
+    color: #ffffff;
+    font-size:var(--fontsize);
+    text-align: center;
+    box-sizing: border-box;
+    animation: myanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.para2{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: var(--margin_top);
+    text-align: center;
+    width: 350px;
+
+}
+
+
+
+
+
+/* second portion */
+
+.container2{
+    display: flex;
+    background: #282828;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap:50vw;
+}
+
+ul li{
+    padding:7px;
+    color: #FFFFFF;
+    font-size:var(--fontsize);
+    list-style: none;
+}
+#list2{
+    text-align: right;
+}
+
+
+
+
+
