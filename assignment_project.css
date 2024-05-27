@@ -1,8 +1,8 @@
 
 :root{
-    --fontstyle :'Inter';
+    --fontstyle :Inter;
     --margin_top : 30px;
-    --fontsize:20px
+    --fontsize:20px;
 }
 *{ 
     margin: 0px;
@@ -19,6 +19,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10vw;
+
    
 }
 
@@ -43,6 +44,7 @@ h6{
 }
 /*this is for input field */
 #input{
+    box-sizing: border-box;
     border-radius: 8px;
     height:64px ;
     width: 350px;
@@ -50,14 +52,18 @@ h6{
     margin-top: var(--margin_top);
     color: #888888;
     font-size:var(--fontsize);
-    text-align: center;
+    padding-left: 20px;
     
     
+  
 }
+
+
 /*this is for button(Register now) */
 .button{
     border-radius: 8px;
-    height:72px ;
+    box-sizing: border-box;
+    height:64px ;
     width: 216px;
     background-color:#282828;
     margin-top: var(--margin_top);
@@ -65,10 +71,7 @@ h6{
     font-size:var(--fontsize);
     text-align: center;
     box-sizing: border-box;
-    animation: myanimation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
+   
 }
 .para2{
     color: #FFFFFF;
